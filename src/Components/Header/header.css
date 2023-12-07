@@ -1,0 +1,37 @@
+.Header {
+
+    background-color: darkorchid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.reelPic {
+
+    width: 300px;
+    height: 200px;
+    background-color: aliceblue;
+}
+
+
+
+.searchEngine {
+
+   
+    border: 1px solid black;
+
+   
+
+}
+
+
+.searchBar {
+
+    display: flex;
+    justify-content: center;
+    margin:  10px;
+}
