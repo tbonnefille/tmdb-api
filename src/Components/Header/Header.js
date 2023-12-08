@@ -7,11 +7,11 @@ import reel from '../../Assets/reel.png'
 function Header() {
 
     return (
+
+
         <div className="Header">
 
-
-
-            <div>Header</div>
+            <h1>THE MOVIE DATABASE</h1>
 
             <Nav />
 

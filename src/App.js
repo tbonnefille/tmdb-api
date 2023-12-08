@@ -2,7 +2,7 @@
 import './App.css';
 
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import Header from './Components/Header/Header';
 
 import Home from './Containers/Home/Home';
@@ -14,6 +14,10 @@ import Footer from './Components/Footer/Footer';
 
 
 function App() {
+
+ 
+
+
   return (
     <BrowserRouter>
       <div className="App">
@@ -22,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/movie" element={<Movie />} />
+          <Route path="/movie/:movieId" element={<Movie />} />
           <Route path="/actor" element={<Actor />} />
         </Routes>
         <Footer />

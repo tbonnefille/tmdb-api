@@ -1,4 +1,19 @@
 .Movie {
 
-    background-color: olive;
+   
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+   
+  
+}
+
+
+
+.actorCardHolder {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

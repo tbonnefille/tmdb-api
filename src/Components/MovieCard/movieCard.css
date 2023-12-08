@@ -2,7 +2,17 @@
 
     width: 200px;
     height: 300px;
-    background-color: dodgerblue;
+  
     border: 1px solid black;
     margin: 10px;
+}
+
+
+
+.cardImg {
+
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
 }
