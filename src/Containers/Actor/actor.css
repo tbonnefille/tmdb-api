@@ -1,4 +1,16 @@
 .Actor {
 
-    background-color: moccasin;
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+
+.bio {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

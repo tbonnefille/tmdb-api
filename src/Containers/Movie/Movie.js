@@ -29,6 +29,10 @@ function Movie() {
   }, []);
 
 
+ 
+
+  const genreArr = thisMovie.genres
+
   console.log("reponse thisMovie attendue ", thisMovie)
 
 
@@ -65,8 +69,8 @@ function Movie() {
   }, []);
 
 
-  console.log("les similar sont ", similar)
-  //console.log("similar = ", credits.cast)
+ // console.log("les similar sont ", similar)
+
   const similarArr = similar.results;
 
 
@@ -93,6 +97,9 @@ function Movie() {
 
 
       <MovieCard movie={thisMovie} />
+
+
+      
 
 
 

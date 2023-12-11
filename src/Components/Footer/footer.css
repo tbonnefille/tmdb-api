@@ -1,12 +1,16 @@
 .Footer {
 
 
-    background-color: darkorchid;
+    background-color: #961B0D;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-
+color: aliceblue;
 
 }
+
+
+
+/*#32174d*/
